@@ -126,7 +126,32 @@ nav a:hover {
 
 .email a:hover {
     text-decoration: underline;
+
 }
+
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .nav-links.show {
+    display: flex;
+  }
+}
+
+
 /* Responsive design */
 @media (max-width: 600px) {
     body {
