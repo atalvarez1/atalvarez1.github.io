@@ -175,3 +175,38 @@ nav a:hover {
         margin-bottom: 10px;
     }
 }
+
+* {
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
+.job-duties {
+    padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .job-duties {
+        padding-left: 15px;
+    }
+    
+    .job-duties li {
+        margin-bottom: 10px;
+    }
+
+    .job h3 {
+        font-size: 1.2rem;
+    }
+    
+    .job p, .job li {
+        font-size: 0.9rem;
+    }
+    
+    section {
+        margin-bottom: 30px;
+    }
+}
